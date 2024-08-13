@@ -50,7 +50,7 @@ const TopFilters: React.FC<Props> = ({
 
         const calendarEvents = person.shifts.map(shift => ({
             start: [
-                2023,
+                2024,
                 8,
                 shift.title === "Friday cleanup"
                     ? 26
